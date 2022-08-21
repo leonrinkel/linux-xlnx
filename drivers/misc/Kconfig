@@ -5,6 +5,12 @@
 
 menu "Misc devices"
 
+config RTL_SSD
+	tristate "Seven segment display driver"
+	default n
+	help
+		Me playin with fpgas & the kernel.
+
 config SENSORS_LIS3LV02D
 	tristate
 	depends on INPUT
